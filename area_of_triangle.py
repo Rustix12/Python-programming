@@ -1,5 +1,8 @@
-h = float(input("Enter the height: "))
+b = float(input("Enter breadth: "))
 
-b = float(input("Enter the base: "))
+h = float(input("Enter height: "))
 
-print("Area of triangle: ",h*b/2)
+a = (b*h)/2
+
+print("Area: ",round(a,2))
+
